@@ -1,6 +1,5 @@
-package coroutine.coroutineBuilders.scoped
+package coroutine.coroutineBuilders.standAlon
 
-import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.async
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.runBlocking
