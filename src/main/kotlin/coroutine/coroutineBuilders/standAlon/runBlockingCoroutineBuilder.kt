@@ -1,4 +1,4 @@
 package coroutine.coroutineBuilders.standAlon
 
-class runBlocking {
+class runBlockingCoroutineBuilder {
 }

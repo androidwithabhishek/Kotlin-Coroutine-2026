@@ -7,8 +7,7 @@ import kotlinx.coroutines.runBlocking
 suspend fun getUser1(onCallback: (User?, Throwable?) -> Unit) {
     println("Start...")
     delay(2000)
-    delay(2000)
-    delay(2000)
+
     try {
         onCallback(User("Vibhuti", 40), null)
     } catch (e: Exception) {

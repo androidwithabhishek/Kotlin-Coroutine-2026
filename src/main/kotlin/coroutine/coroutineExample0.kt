@@ -5,6 +5,7 @@ import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking
 
 fun main(): Unit = runBlocking {
+
     val cus1 = "customer1"
     val cus2 = "customer2"
 
