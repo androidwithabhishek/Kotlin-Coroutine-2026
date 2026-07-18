@@ -10,7 +10,7 @@ import kotlinx.coroutines.supervisorScope
 // start: CoroutineStart = CoroutineStart.DEFAULT,
 // block: suspend CoroutineScope.() -> Unit
 
-fun main(): kotlin.Unit = runBlocking {
+fun main(): Unit = runBlocking {
 
 supervisorScope {
     val dispatchersIO = Dispatchers.IO
