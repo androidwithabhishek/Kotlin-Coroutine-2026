@@ -1,8 +1,8 @@
-package coroutineScope
+package coroutine.coroutineScope
 
 import kotlinx.coroutines.runBlocking
 
-fun main (): kotlin.Unit = runBlocking {
+fun main (): Unit = runBlocking {
 
 // lifecycleScope:
 // Lifecycle-aware scope for an Activity or Fragment.

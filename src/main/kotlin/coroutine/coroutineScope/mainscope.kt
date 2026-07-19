@@ -1,4 +1,4 @@
-package coroutineScope
+package coroutine.coroutineScope
 
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.MainScope
@@ -6,7 +6,7 @@ import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking
 
-fun main (): kotlin.Unit = runBlocking {
+fun main (): Unit = runBlocking {
 
 //    Used for UI-related work. Cancel it when the owner (Activity, Fragment, etc.) is destroyed.
 

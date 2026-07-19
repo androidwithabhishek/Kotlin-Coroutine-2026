@@ -1,4 +1,4 @@
-package coroutineScope
+package coroutine.coroutineScope
 
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.delay
@@ -6,7 +6,7 @@ import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking
 import kotlin.concurrent.thread
 
-fun main (): kotlin.Unit = runBlocking {
+fun main (): Unit = runBlocking {
 
 //    exist for the lifetime of the application.
 

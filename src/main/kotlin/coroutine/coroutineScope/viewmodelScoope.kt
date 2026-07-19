@@ -1,4 +1,4 @@
-package coroutineScope
+package coroutine.coroutineScope
 
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
